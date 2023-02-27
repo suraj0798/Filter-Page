@@ -1,0 +1,23 @@
+.searchBarWapper {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    padding: 1.5rem 1rem;
+}
+
+.searchBarIcon {
+    color: rgba(0, 0, 0, 0.26);
+    margin-right: 2rem;;
+}
+
+.searchBarWapper input {
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+
+.searchBarWapper input::placeholder {
+    color: rgba(0, 0, 0, 0.26)
+}
+
