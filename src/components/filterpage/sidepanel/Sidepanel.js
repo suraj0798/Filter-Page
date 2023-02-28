@@ -1,14 +1,14 @@
 import React from 'react'
 import { categoryList } from '../../../constants/Constancts'
-import Filterlisttoggle from '../../common/filterListToggle/FilterListToggle'
+import FilterListToggle from '../../common/filterListToggle/FilterListToggle'
 
-const Sidepanel = ({selectedCategory, selectToggle}) => {
+const Sidepanel = () => {
   return (
-    <div>Sidepanel
+    <div>
       {/* categary filter */}
       <div className="inputGroup">
         <p className="label">Category</p>
-        <Filterlisttoggle options={categoryList} value={selectedCategory} selectToggle={selectToggle}/>
+        <FilterListToggle/>
       </div>
       {/* cusines filter  */}
       {/* price range filter */}

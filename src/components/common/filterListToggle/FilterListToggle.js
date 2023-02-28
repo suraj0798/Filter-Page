@@ -1,17 +1,27 @@
 import React from 'react'
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
-import ToggleButton from '@mui/material/ToggleButton';
+import './FilterListToggle.css';
+import fashion from 'E:/suraj/filter-page/src/images/fashion.png'
 
-const Filterlisttoggle = ({options, value, selectToggle}) => {
-  return (
-    <ToggleButtonGroup value={value} onChange= {selectToggle} className= "toggleButtonGroup">Filterlisttoggel
-      {options.map(({label,id,value}) => {
-        <ToggleButton className= "ToggleButton" key= {id} value= {value}>
-          {label}
-        </ToggleButton>
-      })}
-    </ToggleButtonGroup>
+
+const FilterListToggle = () => {
+
+  return(
+    <div className='buttonsGroup'>
+        
+       <button type="button"><img className='buttonIcon' src= {fashion} alt='img'/>Fashion</button>
+       <button type="button" aria-label='Mobiles'>📱Mobiles</button>
+       <button type="button">💻Electronics</button>
+       <button type="button">Home</button>
+       <button type="button">Appliances</button>
+       <button type="button">Personal Care</button>
+       <button type="button">Toys & Baby</button>
+       <button type="button">Furniture</button>
+       <button type="button">Sports</button>
+       <button type="button">Grocery</button>
+       <button type="button">Nutrition & More</button>
+       <button type="button">Bikes & Cars</button>
+    </div>
   )
 }
 
-export default Filterlisttoggle
+export default FilterListToggle
