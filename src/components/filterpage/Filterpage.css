@@ -17,8 +17,10 @@
 
 .sidePanelWrapper {
     flex-basis: 280px;
+    /* padding: 1rem; */
 }
 
 .listWrapper {
     flex: 1;
+    padding: 1rem;
 }

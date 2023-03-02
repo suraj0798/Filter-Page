@@ -1,66 +1,77 @@
 export const categoryList = [
     {
         id: 1,
-        Image: './images/fashion',
+        image: "./images/fashion.png",
         value: 'fashion' ,
         label: 'Fashion',
     },
     {
         id: 2,
+        image: "./images/mobile.png",
         value: 'mobiles',
         label: 'Mobiles',
     },
     {
         id: 3,
+        image: "./images/electronic.png",
         value: 'electronics',
         label: 'Electronics',
     },
     {
         id: 4,
+        image: "./images/home.png",
         value: 'home',
         label: 'Home',
     },
     {
         id: 5,
+        image: "./images/appliance.png",
         value: 'appliances',
         label: 'Appliances',
     },
     {
         id: 6,
+        image: "./images/personalcare.png",
         value: 'personalCare',
         label: 'Personal Care',
     },
     {
         id: 7,
+        image: "./images/toy.png",
         value: 'toys',
         label: 'Toys & Baby',
     },
     {
         id: 8,
+        image: "./images/furniture.png",
         value: 'furniture',
         label: 'Furniture',
     },
     {
         id: 9,
+        image: "./images/sports.png",
         value: 'sports',
         label: 'Sports',
     },
     {
         id: 10,
+        image: "./images/grocery.png",
         value: 'grocery',
         label: 'Grocery',
     },
     {
         id: 11,
+        image: "./images/nutrition.png",
         value: 'nutrition',
         label: 'Nutrition & More',
     },
     {
         id: 12,
+        image: "./images/vehicle.png",
         value: 'vehicle',
         label: 'Bikes & Cars',
     },
-]
+];
 
 const ListItems = [
     {

@@ -19,7 +19,7 @@ const Filterpage = () => {
         </div>
         <div className="listWrapper">
           {/* {list and empty view} */}
-          <List/>
+          {/* <List/> */}
         </div>
       </div>
     </div>

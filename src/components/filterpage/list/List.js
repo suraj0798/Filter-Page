@@ -8,10 +8,10 @@ const List = () => {
   return (
     <div className='cardBox'>List
       {listData.map((values) => {
-        const {id,title,price,image,rating,description} = values;
+        const {/*id*/ title,price,image,rating,description} = values;
         return(
           <>
-           <div className="listCard" key={id}>
+           <div className="listCard" /*key={id}*/ >
         <div className="container">
         <div className="card">
             <div className="content-1">

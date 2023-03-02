@@ -20,7 +20,7 @@ button {
     display: inline-block;
 }
 
-.buttonIcon {
+button img  {
     height: 30px;
     width: 30px;
     margin: -10px 20px -15px 15px;
