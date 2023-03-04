@@ -73,6 +73,34 @@ export const categoryList = [
     },
 ];
 
+export const ratingList = [
+    {
+        id: 1,
+        value: '1',
+        label: "⭐",
+    },
+     {
+        id: 2,
+        value: '2',
+        label: "⭐⭐",
+    },
+     {
+        id: 3,
+        value: '3',
+        label: "⭐⭐⭐",
+    },
+     {
+        id: 4,
+        value: '4',
+        label: "⭐⭐⭐⭐",
+    },
+     {
+        id: 5,
+        value: '5',
+        label: "⭐⭐⭐⭐⭐",
+    },
+];
+
 const ListItems = [
     {
         id:1,

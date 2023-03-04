@@ -17,8 +17,11 @@ const FilterListToggle = ({options, value, selectToggle}) => {
   // }
   
   return(
+    <div className='side-container'> 
+    <div className="side-title">CATEGORY</div> <hr/>
     <ButtonGroup className='buttonsGroup' value={value} onChange={selectToggle}>
-          {options.map(({label, value, image, id}) =>{ return  <button key={id} value={value}><img src= {image} alt="img"/>{label}</button>})}
+          {options.map(({label, value, image, id}) =>{ return  <button key={id} value={value}>
+            <img src= {image} alt="img"/>{label}</button>})}
             {/* <img className='buttonIcon' src= "./images/fashion.png"  alt='img' /> */}
             {/* <label className='buttonLabel'>{label}</label> */}
           {/* // </button>}) } */}
@@ -35,6 +38,7 @@ const FilterListToggle = ({options, value, selectToggle}) => {
           <button type="button"><img className='buttonIcon' src= "./images/nutrition.png" alt='img'/><label className='buttonLabel'>Nutrition & More</label></button>
           <button type="button"><img className='buttonIcon' src= "./images/vehicle.png" alt='img'/><label className='buttonLabel'>Bikes & Cars</label></button> */}
     </ButtonGroup>
+    </div>
   )
 }
 
